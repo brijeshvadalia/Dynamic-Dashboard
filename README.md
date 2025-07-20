@@ -44,12 +44,14 @@ Enter your redis url in server .env file
 # Install dependencies
 
 - Install server dependencies
-```cd server
+```
+cd server
 npm install
 npm start
 ```
 - Install client dependencies
-```cd ../client
+```
+cd ../client
 npm install
 npm run dev
 ```
