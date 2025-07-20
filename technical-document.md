@@ -7,7 +7,7 @@ Provide investors with real-time insights into their stock portfolios by fetchin
 
 | Challenge                  | Solution                                      |
 |----------------------------|----------------------------------------------|
-| No official APIs           | Used scraping via Cheerio (Yahoo/Google)     |
+| No official APIs           | Yahoo Finance API, Mocked Google Finance metrics|
 | Rate Limiting              | In-memory caching (expires every 1 min)      |
 | Asynchronous data fetching | Implemented with async/await + Promise.all   |
 | Performance                | React.memo, optimized state updates         |
