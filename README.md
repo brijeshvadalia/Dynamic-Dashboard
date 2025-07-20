@@ -39,6 +39,7 @@ A full-stack **Portfolio Dashboard** that displays stock information, current ma
 ```bash
 git clone url
 cd folder name
+Enter your redis url in server .env file
 ```
 # Install dependencies
 
