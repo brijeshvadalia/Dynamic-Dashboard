@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Apply Inter Font for the entire app */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+    @apply bg-gray-50 text-gray-900;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+}
+
+/* Headings Styling */
+h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold text-gray-800;
+}
+
+/* Tables */
+table {
+    @apply w-full border-collapse text-sm md:text-base bg-white shadow rounded-lg overflow-hidden;
+}
+
+thead {
+    @apply bg-gray-100;
+}
+
+th, td {
+    @apply p-4 text-left border-b border-gray-200;
+}
+
+th {
+    @apply font-medium text-gray-600 uppercase text-xs tracking-wider;
+}
+
+tbody tr:hover {
+    @apply bg-gray-50;
+}
+
+/* Buttons */
+button {
+    @apply bg-blue-600 text-white font-medium py-2 px-4 rounded hover:bg-blue-700 transition duration-300;
+}
+
+/* Card */
+.card {
+    @apply bg-white rounded-xl shadow-md p-6 mb-6;
+}
+
+/* Utilities */
+.text-success {
+    @apply text-green-600;
+}
+
+.text-error {
+    @apply text-red-600;
+}
+
+footer {
+    @apply text-center text-sm text-gray-500 mt-10 border-t pt-4;
+}
+
+/* Inputs */
+input, select {
+    @apply border border-gray-300 rounded p-2 focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+/* Charts Wrapper */
+.chart-wrapper {
+    @apply bg-white shadow rounded-lg p-4;
+}
+
+/* Summary Cards */
+.summary-card {
+    @apply bg-white shadow-md rounded-lg p-4 text-center;
+}
+
+.summary-card h3 {
+    @apply text-xl font-semibold text-gray-700;
+}
+
+.summary-card p {
+    @apply text-lg text-gray-800 mt-2;
+}
+
